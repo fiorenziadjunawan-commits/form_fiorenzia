@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="ujian sumatif.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Pendaftaran </h2>
+
+        
+        <div class="result" id="hasil">Data akan muncul di sini...</div>
+
+        <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama sesuai KTP/Akta">
+        </div>
+
+        <div class="form-group">
+            <label for="kelas">Kelas / Tingkatan:</label>
+            <input type="text" id="kelas" placeholder="cth: XII MIPA 3 / 8A / 3 SD">
+        </div>
+
+        <div class="form-group">
+            <label>Jenis Kelamin:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="Laki-laki"> Laki-laki</label>
+                <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                <label><input type="radio" name="gender" value="Lainnya"> Lainnya</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Ekstrakurikuler yang diminati:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="ekstra" value="Basket"> Basket</label>
+                <label><input type="checkbox" name="ekstra" value="Futsal"> Futsal</label>
+                <label><input type="checkbox" name="ekstra" value="Paduan Suara"> Paduan Suara</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Pilih Jadwal Belajar:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="jadwal" value="Pagi (07.00 - 12.00)"> Pagi(07.00 - 12.00)</label>
+                <label><input type="radio" name="jadwal" value="Siang (12.30 - 17.00)"> Siang(12.30 - 17.00)</label>
+                <label><input type="radio" name="jadwal" value="Sore (17.30 - 20.30)"> Sore(17.30 - 20.30)</label>
+                <label><input type="radio" name="jadwal" value="Campuran (fleksibel)"> Campuran(fleksibel)</label>
+            </div>
+        </div>
+
+        <button id="tampilkanBtn">Tampilkan Data</button>
+        <button id="resetBtn" class="reset">Reset Formulir</button>
+    </div>
+
+   
+    <script src="ujian sumatif.js"></script>
+</body>
+</html>
